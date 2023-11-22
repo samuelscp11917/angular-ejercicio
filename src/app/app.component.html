@@ -1,0 +1,16 @@
+<h1>{{title}}</h1>
+<h2>Contador: {{contador}}</h2>
+<button (click)="Incrementar()">Incrementar</button>
+<button (click)="Decrementar()">Decrementar</button>
+<button (click)="Reset()">Reset</button>
+<button class="btn btn-danger d-flex">asdfa</button>
+
+<div class="d-flex justify-content-center ">
+    <app-tarjeta [priceDiscount]="775000" [price]="835000" title="LENOVO 1 14ADA05 AMD ATHLON SILVER 3050E 4GB DDR4 128GB SSD 14 HD WIN 10" img="https://i.linio.com/p/a057fe13dcd2b50649c2ed28e9648bf0-catalog.webp"></app-tarjeta>
+    <app-tarjeta style_img="w-25" black="OfertaBlack" [priceDiscount]="799000" [price]="858000" title="HP 240 G9 - INTEL CELERON N4500 - 8GB DDR4 - 256GB SSD - PANTALLA 14 HD" img="https://i.linio.com/p/e4d78bf0e7b4702906d6ae0c769fa10a-catalog.webp"></app-tarjeta>
+    <app-tarjeta [priceDiscount]="1499900" [price]="1599900" title="Portatil DELL Inspiron 3520 i5-1135G7 (15.6) Intel® Core i5 8 GB 256 GB SSD" img="https://i.linio.com/p/73b7d54aa2923bb797af2bf59dbf34c8-catalog.webp"></app-tarjeta>
+    <app-tarjeta black="OfertaBlack" [priceDiscount]="469900" [price]="499900" title="Monitor Samsung IPS de 24 Full HD Freesync 75Hz HDMI F24T35 - Negro" img="https://i.linio.com/p/bb419874f493e424e6d5b8eab196463a-catalog.webp"></app-tarjeta>
+    <app-tarjeta black="OfertaBlack" [priceDiscount]="1009900" [price]="1079900" title="Portatil HP 245 G9 Amd Ryzen 3 3250U 8gb 256ssd 14 Windows de Prueba" img="https://i.linio.com/p/7963825869df936e145758d43e25d5fd-catalog.webp"></app-tarjeta>
+    <app-tarjeta [priceDiscount]="3738888" [price]="388888" title="Monitor Aoc 21.5 Full Hd Vga Hdmi 22b2hn Color Negro" img="https://i.linio.com/p/1f051712f3569e7840872fc83122741c-catalog.webp"></app-tarjeta>
+</div>
+<router-outlet></router-outlet>
