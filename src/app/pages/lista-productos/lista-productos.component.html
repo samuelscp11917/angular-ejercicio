@@ -1,0 +1,24 @@
+<div class="container">
+    <div class="d-inline-flex">
+        <p class="" style="font-size: 30px; font-weight: bold;">COMPUTADORES</p><p style="font-size: 15px; color: grey; margin-top: 15px; margin-left: 10px;">423 productos</p>
+    </div>
+    <div class="row">
+        <div class="col-2" style="border-radius: 3px;
+        box-shadow: 0 0 2px; height: 100vh;">
+            <p>Pepe pecas pica papas</p>
+        </div>
+        <div class="col-10 container">
+            <div class="container d-inline-flex" style="box-shadow: 0 0 2px;">
+                <button type="button" class="btn btn-outline-secondary my-2">Ordenar por <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAALNJREFUSEvtk0EKAjEQBGt9hK9UUFhBQURBWUFBQT/oO7xIwwohTpwR2VtyTU0X6SQNA69m4HyqwG24VvRXRStgDMydlAvwAK4WV7oDDc36AQ2WJCl3ANa5pCS4AZMEtiRpuNA7MI0KxOWSI6DatDpgmYSZ4dr3nmku2QIjYBMJjwjEnIC2cNFnYPHtEXgneM9aEjc8egJLEgr/VSB+DzyBnfvDeiBaUTTvg6sCt7pakVvRC3GhGhkTiBBGAAAAAElFTkSuQmCC"/></button>
+                <div style="margin-left: 50rem">
+                    <i class="bi bi-border-all" style="font-size: 25px; margin-right: 10px;"></i><i class="bi bi-list" style="font-size: 30px;"></i>    
+                </div>
+            </div>
+            <div class="col-12 row">
+                @for (i of productos; track i.title) {
+                    <app-tarjeta class="col my-3" [title]="i.title" [img]="i.img" [black]="i.black" [price]="i.price" [priceDiscount]="i.priceDiscount" [porcentaje]="i.porcentaje"></app-tarjeta>
+                }
+            </div>
+        </div>
+    </div>
+</div>

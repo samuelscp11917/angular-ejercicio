@@ -1,0 +1,9 @@
+#cuenta-carrito {
+    background-color: blueviolet;
+    border-radius: 100%;
+    display: inline-block;
+    width: 20px;
+    line-height: 20px;
+    aspect-ratio: 1;
+    text-align: center;
+}

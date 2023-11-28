@@ -13,7 +13,8 @@ export class TarjetaComponent {
   @Input() img: String = "hola soy img";
   @Input() price: number = 0;
   @Input() priceDiscount: number = 0;
-  @Input() black: String = "Normal";
+  @Input() black: Boolean = false;
   @Input() imgf: String = "https://s3.amazonaws.com/fms-live/2f377258-9f67-11e9-a85b-0a5864600933.png";
   @Input() style_img: String = "w-25";
+  @Input() porcentaje: number = 0;
 }
